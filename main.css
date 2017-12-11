@@ -1,25 +1,31 @@
 @font-face {
-    font-family: 'GothamPro-Light';
-    src: url('fonts/GothamPro-Light.woff') format('embedded-opentype');
-    font-weight: 300;
+    font-family:'Gotham Pro Light';
+    src: url('fonts/GothamPro-Light.woff2') format('woff2'),
+    url('fonts/GothamPro-Light.woff') format('woff');
+    font-weight: 400;
     font-style: normal;
-    font-display: optional;
+    font-stretch: normal;
+    unicode-range: U+0020-0491;
 }
 
 @font-face {
-    font-family: 'GothamPro-LightItalic';
-    src: url('fonts/GothamPro-LightItalic.woff') format('embedded-opentype');
-    font-weight: 300;
+    font-family:'Gotham Pro Light';
+    src: url('fonts/GothamPro-LightItalic.woff2') format('woff2'),
+    url('fonts/GothamPro-LightItalic.woff') format('woff');
+    font-weight: 400;
     font-style: italic;
-    font-display: block;
+    font-stretch: normal;
+    unicode-range: U+0020-0491;
 }
 
 @font-face {
-    font-family: 'GothamPro-Bold';
-    src: url('fonts/GothamPro-Bold.woff') format('embedded-opentype');
+    font-family:'Gotham Pro';
+    src: url('fonts/GothamPro-Bold.woff2') format('woff2'),
+    url('fonts/GothamPro-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
-    font-display: block;
+    font-stretch: normal;
+    unicode-range: U+0020-0491;
 }
 
 body {
@@ -30,6 +36,32 @@ body {
 .header {
     height: 77px;
     background: #27283e;
+}
+
+.logo {
+    width: 99px;
+    height: 51px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.contacts {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: right;
+    vertical-align: middle;
+    margin: 20px 20px 0 0;
+}
+.contacts__phone, .contacts__description{
+    display: block;
+}
+.contacts__phone {
+    font-family: 'Gotham Pro';
+    text-align: right;
+    color: white;
+    font-size: 21px;
+    padding-bottom: 10px;
 }
 
 .banner {
@@ -45,11 +77,6 @@ body {
     display: inline-block;
 }
 
-.contacts {
-    width: 600px;
-    margin-left: auto;
-    margin-right: 0;
-}
 .contacts__phone {
     color: #ffffff;
     font-size: 21px;
@@ -100,3 +127,79 @@ body {
     border-bottom: none;
 }
 
+.footer__signature {
+    width: 264px;
+    color: #ffffff;
+}
+
+.footer {
+    height: 77px;
+    background: #27283e;
+}
+.footer__signature, .footer__logo, .footer__social {
+    display: inline-block;
+}
+
+.footer__social__title {
+    color: #ffffff;
+}
+
+
+.social-icon {
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     overflow: hidden;
+     display: inline-block;
+     background: #d4d4d8;
+ }
+
+.social-icon__img-vk {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    background: url('img/vk.svg') center center no-repeat;
+}
+.social-icon__img-fb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    background: url('img/fb.png') center center no-repeat;
+}
+.social-icon__img-google {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    background: url('img/google.png') center center no-repeat;
+}
+.social-icon__img-twitter {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    background: url('img/twitter.png') center center no-repeat;
+}
+.social-icon__img-mail {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    background: url('img/mail.png') center center no-repeat;
+}
+.footer__social__list {
+    list-style: none;
+}
+
+.footer__social__item {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
