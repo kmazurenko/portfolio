@@ -9,7 +9,7 @@
 }
 
 @font-face {
-    font-family:'Gotham Pro Light';
+    font-family:'Gotham Pro Light It';
     src: url('fonts/GothamPro-LightItalic.woff2') format('woff2'),
     url('fonts/GothamPro-LightItalic.woff') format('woff');
     font-weight: 400;
@@ -91,6 +91,7 @@ body {
     text-align: right;
 }
 
+
 .features__item {
     display: inline-block;
 }
@@ -98,7 +99,14 @@ body {
 .navigation, .features {
     display: inline-block;
 }
+.feature__name {
+    font-family: "Gotham Pro";
+}
 
+.feature__info {
+    font-family: 'Gotham Pro Light';
+    width: 194px;
+}
 .news__item__icon {
     width: 160px;
     height: 160px;
@@ -118,6 +126,42 @@ body {
 
 .navigation__list {
     list-style: none;
+}
+
+.navigation__item-link {
+    color: #ec1e79;
+    font-family: "Gotham Pro";
+    font-size: 12px;
+}
+
+.navigation__icon-main {
+    width: 17px;
+    height: 16px;
+    overflow: hidden;
+    display: inline-block;
+    background: url('img/main-icon.png') center center no-repeat;
+}
+
+.navigation__icon-feed {
+    width: 17px;
+    height: 16px;
+    overflow: hidden;
+    display: inline-block;
+    background: url('img/feed-icon.png') center center no-repeat;
+
+}
+
+.navigation__icon-price {
+    width: 17px;
+    height: 16px;
+    overflow: hidden;
+    display: inline-block;
+    background: url('img/wallet-icon.png') center center no-repeat;
+
+}
+
+.navigation__item:first-child {
+    color: black;
 }
 
 .news__item {
