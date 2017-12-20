@@ -168,12 +168,15 @@ wrap {
     text-align: right;
 }
 
-.contacts__link {
+.contacts__button {
     color: rgba(236, 30,121,0.7);
     font-family: 'Open Sans';
     font-size:  14px;
     font-weight: bold;
     text-align: right;
+    background: #27283e;
+    text-decoration: underline;
+    border: none;
 }
 
 

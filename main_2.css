@@ -264,6 +264,7 @@ navigation-menu__text--active {
     width: 120px;
     float: left;
     padding-top: 40px;
+    padding-left: 20px;
 
 }
 
@@ -429,6 +430,7 @@ navigation-menu__text--active {
 
 .footer__signature {
     padding-left: 15px;
+    padding-top: 14px;
 }
 
 .footer__logo {

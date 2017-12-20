@@ -1,0 +1,293 @@
+@font-face {
+    font-family:'Gotham Pro Light';
+    src: url('fonts/GothamPro-Light.woff2') format('woff2'),
+    url('fonts/GothamPro-Light.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-0491;
+}
+
+@font-face {
+    font-family:'Gotham Pro Light It';
+    src: url('fonts/GothamPro-LightItalic.woff2') format('woff2'),
+    url('fonts/GothamPro-LightItalic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0020-0491;
+}
+
+@font-face {
+    font-family:'Gotham Pro';
+    src: url('fonts/GothamPro-Bold.woff2') format('woff2'),
+    url('fonts/GothamPro-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-0491;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+
+body {
+    margin: 0;
+    background: #ffffff;
+    font-family: 'Roboto', Arial, serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.wrapper {
+
+    min-height: 100%;
+    overflow: hidden;
+    min-width: 1100px;
+}
+
+.container {
+    width: 1060px;
+    margin: 0 auto;
+}
+
+.container__footer, .header__container {
+    padding-left: 19px;
+}
+
+.header {
+    content: '';
+    display: block;
+    min-height: 77px;
+    background: #27283e;
+}
+
+.header__left {
+    padding-top: 12px;
+}
+.header__right {
+    padding-top: 21px;
+    text-align: right;
+}
+
+.header__left, .header__right {
+    float: left;
+    width: 50%;
+}
+
+.contacts__phone {
+    color: #ffffff;
+    font-family: 'Gotham Pro';
+    font-size: 21px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: right;
+}
+
+.contacts__button {
+    color: rgba(236, 30,121,0.7);
+    font-family: 'Open Sans';
+    font-size:  14px;
+    font-weight: bold;
+    text-align: right;
+    background: #27283e;
+    text-decoration: underline;
+    border: none;
+}
+
+/*---------SIDEBAR---------*/
+
+.nav, .test__main {
+    float: left;
+}
+
+.nav {
+    width: 120px;
+    padding-top: 40px;
+    padding-left: 20px;
+
+}
+
+.navigation-menu__item {
+    margin-bottom: 32px;
+}
+.navigation-menu__item-link {
+    color: #ec1e79;
+    font-family: "Gotham Pro";
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navigation-menu__item-link--active {
+    color: #000;
+}
+
+.navigation-menu__icon {
+    width: 17px;
+    height: 17px;
+    overflow: hidden;
+    display: inline-block;
+}
+.navigation-menu__text {
+    display: inline-block;
+    margin-left: 17px;
+}
+
+navigation-menu__text--active {
+    color: #000000;
+}
+
+.navigation-menu__icon--main {
+    background: url('img/main-icon.png') center center no-repeat;
+}
+
+.navigation-menu__icon--feed {
+    background: url('img/feed-icon.png') center center no-repeat;
+
+}
+
+.navigation-menu__icon--price {
+    background: url('img/wallet-icon.png') center center no-repeat;
+
+}
+
+.navigation-menu__item:first-child {
+    color: black;
+}
+
+/*---------MAIN---------*/
+
+
+.content {
+    width: 880px;
+}
+
+/*---------FOOTER---------*/
+.footer{
+    content: '';
+    min-height: 77px;
+    background: #27283e;
+    display: block;
+}
+
+.footer__left, .footer__right, .footer__middle {
+    float: left;
+    width: 33.3%;
+}
+
+.footer__logo {
+    width: 99px;
+    margin: 14px auto;
+}
+.footer__signature  {
+    font-family: 'Gotham Pro Light';
+    color: white;
+    font-size: 14px;
+    width: 264px;
+    padding-top: 14px;
+}
+
+.footer__signature--bold {
+    font-family: "Gotham Pro";
+}
+
+.loftschool__link {
+    font-family: "Gotham Pro";
+    font-weight: bold;
+    color: white;
+}
+
+.footer__social {
+    padding-left: 180px;
+    padding-top: 20px;
+}
+
+.footer__social__title {
+    font-family: "Gotham Pro";
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.footer__social__list {
+    padding-top: 9px;
+}
+.footer__social__item { /* needs to be refactored */
+    width: 25px;
+    height: 20px;
+    display: inline-block;
+}
+
+
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    background: #d4d4d8;
+}
+
+.social-icon:hover {
+    background: #ec1e79;
+}
+
+.social-icon__img-vk {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    background: url('img/vk.svg') center center no-repeat;
+}
+.social-icon__img-fb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    background: url('img/fb.png') center center no-repeat;
+}
+.social-icon__img-google {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    background: url('img/google.png') center center no-repeat;
+}
+.social-icon__img-twitter {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    background: url('img/twitter.png') center center no-repeat;
+}
+.social-icon__img-mail {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    background: url('img/mail.png') center center no-repeat;
+}
