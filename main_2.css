@@ -57,12 +57,6 @@ li {
     margin: 0 auto;
 }
 
-.footer{
-    height: 50px;
-    background: #27283e;
-
-}
-
 .empty{
     height: 50px;
 }
@@ -420,24 +414,4 @@ navigation-menu__text--active {
     background-color: #221f1f;
     padding: 7px 8px;
     border-radius: 5px;
-}
-
-.footer__logo, .footer__signature {
-    padding-top: 5px;
-    float: left;
-    width: 33%;
-}
-
-.footer__signature {
-    padding-left: 15px;
-    padding-top: 14px;
-}
-
-.footer__logo {
-    text-align: center;
-}
-
-.footer__social {
-    padding-left: 120px;
-    padding-top: 20px;
 }

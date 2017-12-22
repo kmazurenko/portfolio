@@ -16,13 +16,13 @@
 
     <!---------------HEADER--------------->
         <header class="header">
-            <div class="container clearfix">
+            <div class="container header__container clearfix">
                 <div class="header__left">
-
-                    <a href="#" class="logo__link">
-                        <img src="./img/logo-fig.png" alt="Co-working" class="logo__img">
-                    </a>
-
+                    <div class="logo">
+                        <a href="#" class="logo__link">
+                            <img src="./img/logo-fig.png" alt="Co-working" class="logo__img">
+                        </a>
+                    </div>
                 </div>
                 <div class="header__right">
                     <div class="contacts">
@@ -44,13 +44,13 @@
                         <nav class="navigation-menu">
                             <ul class="navigation-menu__list">
                                 <li class="navigation-menu__item">
-                                    <a href="#" class="navigation-menu__item-link navigation-menu__item-link--active">
+                                    <a href="index.html" class="navigation-menu__item-link navigation-menu__item-link--active">
                                         <div class="navigation-menu__icon navigation-menu__icon--main"></div>
                                         <div class="navigation-menu__text navigation-menu__text--active">Главная</div>
                                     </a>
                                 </li>
                                 <li class="navigation-menu__item">
-                                    <a href="#" class="navigation-menu__item-link">
+                                    <a href="reviews.html" class="navigation-menu__item-link">
                                         <div class="navigation-menu__icon navigation-menu__icon--feed"></div>
                                         <div class="navigation-menu__text">Отзывы</div>
                                     </a>
@@ -75,7 +75,7 @@
                             <nav class="breadcrumbs">
                                 <ul class="breadcrumbs__list">
                                     <li class="breadcrumbs__item">
-                                        <a href="#" class="breadcrumbs__item__link">Главная</a>
+                                        <a href="index.html" class="breadcrumbs__item__link">Главная</a>
                                     </li>
                                     <li class="breadcrumbs__item">
                                         <a href="#" class="breadcrumbs__item__link breadcrumbs__item__link--active">Отзывы</a>
@@ -218,69 +218,77 @@
                 </div>
             </div>
         </div>
-        <div class="footer">
-            <div class="container clearfix">
-                <div class="footer__signature">Сделано с любовью и старанием
-                    на курсе «HTML + CSS» в LoftSchool.
-                    Автор работы: <b>Ksenia Mazurenko</b>
-                </div>
-                <div class="footer__logo">
-                    <a href="#" class="logo__link">
-                        <img src="./img/logo-fig.png" alt="Co-working" class="logo__img">
-                    </a>
-                </div>
-                <div class="footer__social">
-                    <div class="footer__social__title">
-                        Наши социальные сети
+        <footer class="footer">
+            <div class="container container__footer clearfix">
+                <div class="footer__right">
+                    <div class="footer__signature">Сделано с любовью и старанием
+                        на курсе «HTML + CSS» в <a class="loftschool__link" href="https://loftschool.com/">LoftSchool</a>.
+                        Автор работы: <b class="footer__signature footer__signature--bold">Ksenia Mazurenko</b>
                     </div>
-                    <ul class="footer__social__list">
-                        <li class="footer__social__item">
-                            <div class="social-icon">
-                                <div class="social-icon__img-vk">
-                                    <a href="#" class="social-icon__link"></a>
-                                </div>
-
-                            </div>
-                        </li>
-                        <li class="footer__social__item">
-                            <div class="social-icon">
-                                <div class="social-icon__img-fb">
-                                    <a href="#" class="social-icon__link"></a>
-                                </div>
-
-                            </div>
-                        </li>
-                        <li class="footer__social__item">
-                            <div class="social-icon">
-                                <div class="social-icon__img-google">
-                                    <a href="#" class="social-icon__link"></a>
-                                </div>
-
-                            </div>
-                        </li>
-                        <li class="footer__social__item">
-                            <div class="social-icon">
-                                <div class="social-icon__img-twitter">
-                                    <a href="#" class="social-icon__link"></a>
-                                </div>
-
-                            </div>
-                        </li>
-                        <li class="footer__social__item">
-                            <div class="social-icon">
-                                <div class="social-icon__img-mail">
-                                    <a href="#" class="social-icon__link"></a>
-                                </div>
-
-                            </div>
-                        </li>
-
-
-                    </ul>
                 </div>
+                <div class="footer__middle">
+                    <div class="footer__logo">
+                        <div class="logo">
+                            <a href="#" class="logo__link">
+                                <img src="./img/logo-fig.png" alt="Co-working" class="logo__img">
+                            </a>
+                        </div>
+                    </div>
 
+                </div>
+                <div class="footer__left">
+                    <div class="footer__social">
+                        <div class="footer__social__title">
+                            Наши социальные сети
+                        </div>
+                        <ul class="footer__social__list">
+                            <li class="footer__social__item">
+                                <div class="social-icon">
+                                    <div class="social-icon__img-vk">
+                                        <a href="#" class="social-icon__link"></a>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="footer__social__item">
+                                <div class="social-icon">
+                                    <div class="social-icon__img-fb">
+                                        <a href="#" class="social-icon__link"></a>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="footer__social__item">
+                                <div class="social-icon">
+                                    <div class="social-icon__img-google">
+                                        <a href="#" class="social-icon__link"></a>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="footer__social__item">
+                                <div class="social-icon">
+                                    <div class="social-icon__img-twitter">
+                                        <a href="#" class="social-icon__link"></a>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="footer__social__item">
+                                <div class="social-icon">
+                                    <div class="social-icon__img-mail">
+                                        <a href="#" class="social-icon__link"></a>
+                                    </div>
+
+                                </div>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </div>
+        </footer>
 
     </div> <!-------END-of-WRAPPER-------->
 
