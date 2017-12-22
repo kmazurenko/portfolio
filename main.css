@@ -134,10 +134,11 @@ li {
     padding-left: 10px;
 }
 
-.navigation-menu__item {
+.menu__item {
     margin-bottom: 32px;
+    min-height: 20px;
 }
-.navigation-menu__item-link {
+.menu__link {
     color: #ec1e79;
     font-family: "Gotham Pro";
     font-size: 12px;
@@ -145,41 +146,42 @@ li {
     text-transform: uppercase;
 }
 
-.navigation-menu__item-link--active {
+.menu__link--active {
     color: #000;
 }
 
-.navigation-menu__icon {
+.menu__icon {
     width: 20px;
     height: 20px;
     overflow: hidden;
     display: inline-block;
+    vertical-align: bottom;
 }
 
-.navigation-menu__text {
+.menu__text {
     display: inline-block;
     margin-left: 17px;
 }
 
-navigation-menu__text--active {
+menu__text--active {
     color: #000000;
 }
 
-.navigation-menu__icon--main {
+.menu__icon--main {
     background: url('img/main-icon.png') center center no-repeat;
 }
 
-.navigation-menu__icon--feed {
+.menu__icon--feed {
     background: url('img/feed-icon.png') center center no-repeat;
 
 }
 
-.navigation-menu__icon--price {
+.menu__icon--price {
     background: url('img/wallet-icon.png') center center no-repeat;
 
 }
 
-.navigation-menu__item:first-child {
+.menu__item:first-child {
     color: black;
 }
 
@@ -280,10 +282,10 @@ navigation-menu__text--active {
 
 }
 
-.feature__details-list-item {
+.feature__info__list-item {
     text-align: left;
 }
-.feature__details-list-item:before {
+.feature__info__list-item:before {
     color: #ec1e79;
     content: "•";
     padding-right: 30px;
