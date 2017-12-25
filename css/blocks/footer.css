@@ -1,0 +1,101 @@
+/*---------FOOTER---------*/
+.footer{
+    content: '';
+    min-height: 77px;
+    background: #27283e;
+    display: block;
+}
+
+.footer__left, .footer__right, .footer__middle {
+    float: left;
+    width: 33.3%;
+}
+
+.footer__logo {
+    width: 99px;
+    margin: 14px auto;
+}
+.footer__signature  {
+    font-family: 'Gotham Pro Light';
+    color: white;
+    font-size: 14px;
+    width: 264px;
+    padding-top: 14px;
+}
+
+.footer__signature--bold {
+    font-family: "Gotham Pro";
+}
+
+.loftschool__link {
+    font-family: "Gotham Pro";
+    font-weight: bold;
+    color: white;
+}
+
+.socials {
+    padding-left: 180px;
+    padding-top: 20px;
+}
+
+.socials__title {
+    font-family: "Gotham Pro";
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.socials__list {
+    padding-top: 9px;
+}
+.socials__item {
+    width: 25px;
+    height: 20px;
+    display: inline-block;
+}
+
+.socials__icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("../../img/social/spritesheet.png") 0 0 no-repeat;
+}
+
+.social__icon--vk {
+    background-position: -339px -11px;
+}
+
+.social__icon--vk:hover {
+    background-position: -380px -11px;
+}
+
+.social__icon--fb {
+    background-position: -11px -11px;
+}
+
+.social__icon--fb:hover {
+    background-position: -52px -11px;
+}
+
+.social__icon--g {
+    background-position: -93px -11px;
+}
+
+.social__icon--g:hover {
+    background-position: 134px -11px;
+}
+
+.social__icon--tw {
+    background-position: -257px -11px;
+}
+
+.social__icon--tw:hover {
+    background-position: -298px -11px;
+}
+
+.social__icon--mail {
+    background-position: -175px -11px;
+}
+
+.social__icon--mail:hover {
+    background-position: -216px -11px;
+}

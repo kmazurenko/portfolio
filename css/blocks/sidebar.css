@@ -1,0 +1,74 @@
+/*---------SIDEBAR---------*/
+
+
+.nav, .test__main {
+    float: left;
+}
+
+.sidebar {
+    padding-left: 10px;
+}
+
+.menu__item {
+    margin-bottom: 32px;
+    min-height: 20px;
+}
+
+.menu__item:hover {
+    color: #000;
+}
+.menu__link {
+    color: #ec1e79;
+    font-family: "Gotham Pro";
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu__link--active {
+    color: #000;
+}
+
+.menu__icon {
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: bottom;
+    background: url("../../img/menu-icons/menu-sprite.png") 0 0 no-repeat;
+}
+.menu__text {
+    display: inline-block;
+    margin-left: 17px;
+}
+
+.menu__text--active {
+    color: #000000;
+}
+
+.menu__icon--main {
+    background-position: -128px -10px;
+}
+
+.menu__icon--main-active {
+    background-position: -90px -10px;
+}
+
+.menu__icon--feed {
+    background-position: -50px -10px;
+}
+
+.menu__icon--feed-active {
+    background-position: -10px -10px;
+
+}
+
+.menu__icon--price {
+    background-position: -204px -10px;
+}
+
+.menu__icon--price-active {
+    background-position: -165px -10px;
+}
+
+

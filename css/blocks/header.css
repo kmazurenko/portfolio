@@ -1,0 +1,109 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.header {
+    content: '';
+    display: block;
+    min-height: 77px;
+    background: #27283e;
+}
+
+.header__left {
+    padding-top: 12px;
+}
+.header__right {
+    padding-top: 21px;
+    text-align: right;
+}
+
+.header__left, .header__right {
+    float: left;
+    width: 50%;
+    position: relative;
+}
+
+.contacts__phone {
+    color: #ffffff;
+    font-family: 'Gotham Pro';
+    font-size: 21px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: right;
+}
+
+.contacts__button {
+    color: rgba(236, 30,121,0.7);
+    font-family: 'Open Sans';
+    font-size:  14px;
+    font-weight: bold;
+    text-align: right;
+    background: #27283e;
+    text-decoration: underline;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.contacts__button:hover {
+    opacity: 0.7;
+    color: #5dd1f8;
+}
+
+.contacts__button:hover + .contacts__dropdown{
+    opacity: 1;
+}
+
+.contacts__dropdown {
+    position: absolute;
+    top: 80px;
+    left: 360px;
+    text-align: right;
+    opacity: 0;
+    transition: all 0.45s;
+
+}
+.contacts__schedule {
+    border-radius: 10px;
+    width: 200px;
+    height: 80px;
+    background: white;
+    position: relative;
+    text-align: left;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+
+
+.schedule__triangle {
+    border-top: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-bottom: 13px solid white;
+    border-left: 13px solid transparent;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    bottom: 100%;
+    left: 80%;
+
+}
+
+.schedule__days {
+    color: #ec1e79;
+    font-family: 'Gotham Pro';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+.schedule__lunch {
+    font-family: 'Gotham Pro Light';
+    font-size: 14px;
+    line-height: 18px;
+    color: #221f1f;
+    font-weight: 300;
+    padding-left: 10px;
+}

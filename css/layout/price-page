@@ -1,0 +1,125 @@
+h1 {
+
+    color: #221f1f;
+    font-family: "Gotham Pro";
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 38px;
+
+}
+
+.rates__title {
+    font-size: 49px;
+}
+.rates__item {
+    width: 250px;
+    display: inline-block;
+    font-family: "Gotham Pro Light";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    vertical-align: top;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    position: relative;
+
+
+}
+
+.rates__name {
+    color: #5dd1f8;
+    font-family: "Gotham Pro";
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 21px;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.rates__name--active {
+    color: #ec1e79;
+}
+
+.rates__info {
+    text-align: center;
+}
+.rates_img {
+    width: 250px;
+    height: 153px;
+    position: relative;
+}
+
+.rates_img--1 {
+    background: url("../../img/rates/rates-1.jpg");
+}
+
+.rates_img--2 {
+    background: url("../../img/rates/rates-2.jpg");
+}
+
+.rates_img--3 {
+    background: url("../../img/rates/rates-3.jpg");
+}
+
+.rates_img--4{
+    background: url("../../img/rates/rates-4.jpg");
+}
+
+.rates_img--5 {
+    background: url("../../img/rates/rates-5.jpg");
+}
+
+.rates_img--6 {
+    background: url("../../img/rates/rates-6.jpg");
+}
+.rates__info__price {
+    font-family: "Gotham Pro";
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.partners__title {
+    font-size: 49px;
+}
+.partners__list {
+    width: 880px;
+}
+
+.partners__item {
+    display: inline-block;
+}
+
+.partners__img {
+    width: 285px;
+    height: 100px;
+
+}
+
+.partners__img--winter {
+    background: url("../../img/partners/winter.jpg") left center no-repeat;
+}
+.partners__img--drop {
+    background: url("../../img/partners/drop.jpg") left center no-repeat;
+}
+.partners__img--ahmatova {
+    background: url("../../img/partners/ahmatova.jpg") left center no-repeat;
+}
+.partners__img--tishkin {
+    background: url("../../img/partners/tishkin.jpg") left center no-repeat;
+}
+.partners__img--pufok {
+    background: url("../../img/partners/pufok.png") left center no-repeat;
+}
+.partners__img--avantage {
+    background: url("../../img/partners/avantage.jpg") left center no-repeat;
+}
+
+.partners {
+    padding-bottom: 50px;
+}

@@ -5,10 +5,16 @@
     <title>Коворкинг-главная</title>
     <meta charset="UTF-8">
     <title>Home page</title>
+    <link rel="shortcut icon" href="img/fav.ico" type="image/x-icon">
+    <link rel="icon" href="img/fav.ico" type="image/x-icon">
     <meta name="viewport" content="width=1100, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&amp;subset=cyrillic" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/layout/main.css">
+    <link rel="stylesheet" href="css/layout/reviews.css">
+    <link rel="stylesheet" href="css/blocks/footer.css">
+    <link rel="stylesheet" href="css/blocks/header.css">
+    <link rel="stylesheet" href="css/blocks/sidebar.css">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
 </head>
@@ -30,6 +36,14 @@
                         </a>
                         <div class="contacts__description">
                             <button type="button" class="contacts__button">График работы</button>
+                            <div class="contacts__dropdown">
+                                <div class="contacts__schedule">
+                                    <div class="schedule__triangle"></div>
+                                    <p class="schedule__days">пн-вс: 09:00-20:00</p>
+                                    <p class="schedule__lunch">обед: 14:00-14:30</p>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -56,10 +70,10 @@
                         <nav class="menu">
                             <ul class="menu__list">
                                 <li class="menu__item">
-                                    <a href="index.html" class="menu__link menu__link--active">
-                                        <div class="menu__icon menu__icon--main"></div>
+                                    <span class="menu__link menu__link--active">
+                                        <div class="menu__icon menu__icon--main-active"></div>
                                         <span class="menu__text menu__text--active">Главная</span>
-                                    </a>
+                                    </span>
                                 </li>
                                 <li class="menu__item">
                                     <a href="reviews.html" class="menu__link">
@@ -68,7 +82,7 @@
                                     </a>
                                 </li>
                                 <li class="menu__item">
-                                    <a href="#" class="menu__link">
+                                    <a href="price.html" class="menu__link">
                                         <div class="menu__icon menu__icon--price"></div>
                                         <span class="menu__text">Тарифы</span>
                                     </a>
@@ -178,6 +192,7 @@
                         <p class="pagination__title">Страница 1 из 7</p>
                         <nav class="pagination__pages">
                             <ul class="pagination__list">
+                                <li class="pagination__item"><a href="#" class="pagination__link pagination__link--left"><</a></li>
                                 <li class="pagination__item"><a href="#" class="pagination__link">1</a></li>
                                 <li class="pagination__item"><a href="#" class="pagination__link">2</a></li>
                                 <li class="pagination__item"><a href="#" class="pagination__link">3</a></li>
@@ -185,6 +200,7 @@
                                 <li class="pagination__item"><a href="#" class="pagination__link">5</a></li>
                                 <li class="pagination__item"><a href="#" class="pagination__link">6</a></li>
                                 <li class="pagination__item"><a href="#" class="pagination__link">7</a></li>
+                                <li class="pagination__item"><a href="#" class="pagination__link pagination__link--right">></a></li>
                             </ul>
                         </nav>
                     </div>
@@ -214,50 +230,25 @@
 
                 </div>
                 <div class="footer__left">
-                    <div class="footer__social">
-                        <div class="footer__social__title">
+                    <div class="socials">
+                        <div class="socials__title">
                             Наши социальные сети
                         </div>
-                        <ul class="footer__social__list">
-                            <li class="footer__social__item">
-                                <div class="social-icon">
-                                    <div class="social-icon__img-vk">
-                                        <a href="#" class="social-icon__link"></a>
-                                    </div>
-
-                                </div>
+                        <ul class="socials__list">
+                            <li class="socials__item ">
+                                <a href="#" class="socials__icon social__icon--vk"></a>
                             </li>
-                            <li class="footer__social__item">
-                                <div class="social-icon">
-                                    <div class="social-icon__img-fb">
-                                        <a href="#" class="social-icon__link"></a>
-                                    </div>
-
-                                </div>
+                            <li class="socials__item ">
+                                <a href="#" class="socials__icon social__icon--fb"></a>
                             </li>
-                            <li class="footer__social__item">
-                                <div class="social-icon">
-                                    <div class="social-icon__img-google">
-                                        <a href="#" class="social-icon__link"></a>
-                                    </div>
-
-                                </div>
+                            <li class="socials__item ">
+                                <a href="#" class="socials__icon social__icon--g"></a>
                             </li>
-                            <li class="footer__social__item">
-                                <div class="social-icon">
-                                    <div class="social-icon__img-twitter">
-                                        <a href="#" class="social-icon__link"></a>
-                                    </div>
-
-                                </div>
+                            <li class="socials__item ">
+                                <a href="#" class="socials__icon social__icon--tw"></a>
                             </li>
-                            <li class="footer__social__item">
-                                <div class="social-icon">
-                                    <div class="social-icon__img-mail">
-                                        <a href="#" class="social-icon__link"></a>
-                                    </div>
-
-                                </div>
+                            <li class="socials__item ">
+                                <a href="#" class="socials__icon social__icon--mail"></a>
                             </li>
 
 
