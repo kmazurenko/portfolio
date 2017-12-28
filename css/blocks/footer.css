@@ -62,18 +62,22 @@
 
 .social__icon--vk {
     background-position: -339px -11px;
+
 }
 
 .social__icon--vk:hover {
     background-position: -380px -11px;
+    transition: background-position 1s;
 }
 
 .social__icon--fb {
     background-position: -11px -11px;
+
 }
 
 .social__icon--fb:hover {
     background-position: -52px -11px;
+    transition: background-position 1s;
 }
 
 .social__icon--g {
@@ -81,7 +85,8 @@
 }
 
 .social__icon--g:hover {
-    background-position: 134px -11px;
+    background-position: -134px -11px;
+    transition: background-position 1s;
 }
 
 .social__icon--tw {
@@ -90,12 +95,15 @@
 
 .social__icon--tw:hover {
     background-position: -298px -11px;
+    transition: background-position 1s;
 }
 
 .social__icon--mail {
     background-position: -175px -11px;
+
 }
 
 .social__icon--mail:hover {
     background-position: -216px -11px;
+    transition: background-position 1s;
 }

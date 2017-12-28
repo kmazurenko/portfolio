@@ -369,6 +369,8 @@ li {
     background-color: #fff;
     padding: 7px 8px;
     line-height: 21px;
+    transition: background-color 1s;
+    border-radius: 5px;
 }
 
 .pagination__link:hover{
