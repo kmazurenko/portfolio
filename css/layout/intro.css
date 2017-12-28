@@ -70,6 +70,8 @@
     /* Text style for "Перейти на" */
     letter-spacing: 1.2px;
     vertical-align: center;
+    transition: background-color 1s;
+    transition: color 1s;
 
 }
 
