@@ -54,27 +54,27 @@ h1 {
     position: relative;
 }
 
-.rates_img--1 {
+.rates_img--one {
     background: url("../../img/rates/rates-1.jpg");
 }
 
-.rates_img--2 {
+.rates_img--three {
     background: url("../../img/rates/rates-2.jpg");
 }
 
-.rates_img--3 {
+.rates_img--ten {
     background: url("../../img/rates/rates-3.jpg");
 }
 
-.rates_img--4{
+.rates_img--VIP{
     background: url("../../img/rates/rates-4.jpg");
 }
 
-.rates_img--5 {
+.rates_img--all {
     background: url("../../img/rates/rates-5.jpg");
 }
 
-.rates_img--6 {
+.rates_img--meetings {
     background: url("../../img/rates/rates-6.jpg");
 }
 .rates__info__price {
@@ -98,7 +98,12 @@ h1 {
 .partners__img {
     width: 285px;
     height: 100px;
+    filter: grayscale(100%);
+}
 
+.partners__img:hover {
+    filter: none;
+    opacity: 1;
 }
 
 .partners__img--winter {
@@ -109,6 +114,7 @@ h1 {
 }
 .partners__img--ahmatova {
     background: url("../../img/partners/ahmatova.jpg") left center no-repeat;
+    opacity: 0.5;
 }
 .partners__img--tishkin {
     background: url("../../img/partners/tishkin.jpg") left center no-repeat;

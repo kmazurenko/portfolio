@@ -12,6 +12,16 @@
 .menu__item {
     margin-bottom: 32px;
     min-height: 20px;
+    animation: move 1.5s;
+}
+
+@keyframes move {
+   0%{
+      transform: translateX(-100px);
+   }
+   100% {
+       transform: translateX(0px);
+   }
 }
 
 .menu__item:hover {
